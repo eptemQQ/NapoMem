@@ -24,9 +24,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PW0-ee-Don">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PW0-ee-Don">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="aQp-6J-WBo" customClass="TableViewControllerCell" customModule="Memory" customModuleProvider="target">
@@ -57,8 +56,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="PW0-ee-Don" firstAttribute="leading" secondItem="Qim-gf-uOs" secondAttribute="leading" id="M43-y3-9qE"/>
                             <constraint firstItem="f5p-Yw-YKS" firstAttribute="centerX" secondItem="zQj-sF-Q1y" secondAttribute="centerX" id="V2g-Lk-isa"/>
+                            <constraint firstItem="PW0-ee-Don" firstAttribute="top" secondItem="zQj-sF-Q1y" secondAttribute="top" id="bw9-Q5-Mw3"/>
                             <constraint firstItem="f5p-Yw-YKS" firstAttribute="centerY" secondItem="zQj-sF-Q1y" secondAttribute="centerY" id="fMG-y2-FKT"/>
+                            <constraint firstItem="Qim-gf-uOs" firstAttribute="bottom" secondItem="PW0-ee-Don" secondAttribute="bottom" id="fkY-YV-TDu"/>
+                            <constraint firstItem="PW0-ee-Don" firstAttribute="trailing" secondItem="Qim-gf-uOs" secondAttribute="trailing" id="lRe-JX-xlA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Qim-gf-uOs"/>
                     </view>
