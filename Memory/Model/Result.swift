@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Result : NSObject{
+class Result {
     var numberOfTaps : Int
     var timeInGame : String
     var date : Date
